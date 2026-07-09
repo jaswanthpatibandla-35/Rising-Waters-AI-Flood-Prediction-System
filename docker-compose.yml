@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - SECRET_KEY=RisingWatersComposeSecretKey_!@#123
+      - FLASK_DEBUG=False
+      - PORT=5000
+    volumes:
+      # Bind local database directory for sqlite persistence
+      - ./database:/app/database
+      - ./static/reports:/app/static/reports
+      - ./static/uploads:/app/static/uploads
+    restart: always

@@ -1,0 +1,57 @@
+2026-07-09 18:11:39,054 - rising_waters - INFO - Initializing Flask server environment...
+2026-07-09 18:11:39,089 - rising_waters - INFO - Database initialized at C:\Users\jaswa\Desktop\rising water\instance\flood_prediction.db
+2026-07-09 18:16:05,894 - rising_waters - INFO - Initializing Flask server environment...
+2026-07-09 18:16:05,922 - rising_waters - INFO - Database initialized at C:\Users\jaswa\Desktop\rising water\instance\flood_prediction.db
+2026-07-09 18:27:53,613 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:27:53,617 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:27:53,617 [INFO] app: Starting Rising Waters application boot cycle...
+2026-07-09 18:27:53,669 [INFO] app: Database logging handler connected.
+2026-07-09 18:27:54,025 [INFO] app: Admin account seeded successfully (admin/admin123).
+2026-07-09 18:27:54,029 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:27:54,036 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:27:54,553 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:27:54,559 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:28:31,137 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:28:31,141 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:28:31,141 [INFO] app: Starting Rising Waters application boot cycle...
+2026-07-09 18:28:31,160 [INFO] app: Database logging handler connected.
+2026-07-09 18:28:31,176 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:28:31,179 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:28:31,638 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:28:31,644 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:29:29,392 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:29:29,396 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:29:29,397 [INFO] app: Starting Rising Waters application boot cycle...
+2026-07-09 18:29:29,424 [INFO] app: Database logging handler connected.
+2026-07-09 18:29:29,442 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:29:29,445 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:29:29,541 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:29:29,545 [INFO] prediction: Successfully loaded all machine learning artifacts.
+2026-07-09 18:31:46,188 - rising_waters - ERROR - Unhandled Exception: 'Query' object has no attribute 'get_or_4_404'
+Traceback (most recent call last):
+  File "C:\Users\jaswa\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jaswa\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\jaswa\Desktop\rising water\app.py", line 187, in result
+    else:
+AttributeError: 'Query' object has no attribute 'get_or_4_404'
+2026-07-09 18:31:46,319 - rising_waters - WARNING - 404 Route Not Found: http://10.12.212.199:5000/favicon.ico
+2026-07-09 18:37:07,824 - rising_waters - ERROR - Unhandled Exception: 'Query' object has no attribute 'get_or_4_404'
+Traceback (most recent call last):
+  File "C:\Users\jaswa\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jaswa\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\jaswa\Desktop\rising water\app.py", line 187, in result
+    else:
+AttributeError: 'Query' object has no attribute 'get_or_4_404'
+2026-07-09 18:38:09,018 - rising_waters - ERROR - Unhandled Exception: 'Query' object has no attribute 'get_or_4_404'
+Traceback (most recent call last):
+  File "C:\Users\jaswa\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jaswa\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\jaswa\Desktop\rising water\app.py", line 187, in result
+    else:
+AttributeError: 'Query' object has no attribute 'get_or_4_404'
